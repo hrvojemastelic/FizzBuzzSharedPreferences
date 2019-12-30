@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TVCHrvojePrviZadatak</string>
+    <string name="title">IZBORNIK JEZIKA I FIZZBUZZ </string>
+    <string name="message">Molim odaberite jezik </string>
+    <string name="btn_change_language">-</string>
+    <string name="hello_world_dialog">Pozdrav Svijete</string>
+    <string name="btn_toast">Pozdrav</string>
+    <string name="dialog_title">Odaberite svoj jezik</string>
+    <string name="fizzbuzz_close_btn">Zatvori</string>
+    <string name="fizzbuzz">fizzbuzz</string>
+    <string name="splashscreen">TVC</string>
+
+
+
+
+
+    <string-array name="choose_lang">
+        <item>Engleski</item>
+        <item>Hrvatski</item>
+    </string-array>
+</resources>

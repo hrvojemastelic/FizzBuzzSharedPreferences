@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_purple">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:background="@drawable/buttons_style">
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fizzbuzz_title"
+        android:text="FizzBuzz"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="24dp"/>
+
+    <ScrollView
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/fizzbuzz_srcollview"
+        android:layout_below="@+id/fizzbuzz_title"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+
+        <TextView
+            android:padding="4dp"
+            android:textColor="@color/white"
+            android:id="@+id/fizzbuzz_message"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            />
+
+    </ScrollView>
+
+    <Button
+        android:layout_margin="4dp"
+        android:text="@string/fizzbuzz_close_btn"
+        android:background="@drawable/buttons_style"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+
+        android:layout_below="@+id/fizzbuzz_srcollview"
+        android:id="@+id/fizzbuzz_button"/>
+</RelativeLayout>
+    </RelativeLayout>
